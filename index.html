@@ -15,10 +15,9 @@
     <a-scene renderer="colorManagement: true">
     <!-- environment="preset: default; skyType: atmosphere; skyColor: #66D; lighting: none; lightPosition: 0 1 1" -->
       <a-assets>
-        <a-asset-item id="navmesh" src="mesh/collision.glb"></a-asset-item>
-        <a-asset-item id="room1" src="mesh/gallery try 5-1.glb"></a-asset-item>
-        <a-asset-item id="room2" src="mesh/gallery try 5-2.glb"></a-asset-item>
-        <a-asset-item id="room3" src="mesh/gallery try 5-3.glb"></a-asset-item>
+        <a-asset-item id="navmesh" src="mesh/gallery try 5 baked collision.glb"></a-asset-item>
+        <a-asset-item id="room1" src="mesh/gallery try 5 baked.glb"></a-asset-item>
+        <a-asset-item id="sky" src="mesh/gallery try 5 baked sky.glb"></a-asset-item>
       </a-assets>
 
       <!-- Player. -->
@@ -48,11 +47,7 @@
       </a-entity>
       <a-entity position="0 0.1 0"
                 scale="3 3 3"
-                gltf-model="#room2">
-      </a-entity>
-      <a-entity position="0 0.1 0"
-                scale="3 3 3"
-                gltf-model="#room3">
+                gltf-model="#sky">
       </a-entity>
     </a-scene>
   </body>
