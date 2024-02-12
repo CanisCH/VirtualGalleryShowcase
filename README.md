@@ -1,4 +1,4 @@
-# Virtual Gallery For Sakura
+# Virtual Gallery Showcase
 \
-This is a test version of our project.\
+This is a template and a showcase to a online virtual gallery.\
 Credits: A-frame, A-frame extras, Aframe-environment-component 
